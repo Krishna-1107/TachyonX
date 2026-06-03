@@ -69,9 +69,10 @@ TachyonX implements Price-Time Priority matching with absolute `O(1)` time compl
 
 A modern C++ compiler (GCC 9+ or Clang 10+) supporting C++17 is required.
 
-git clone [https://github.com/Krishna-1107/TachyonX.git](https://github.com/Krishna-1107/TachyonX.git)
+```bash
+git clone https://github.com/Krishna-1107/TachyonX.git
 cd TachyonX
-# ```
+```
 
 **2. Build via Make**
 *Note: The Makefile defaults to aggressive compiler optimizations `-O3` required for accurate latency profiling.*
